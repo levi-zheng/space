@@ -33,10 +33,6 @@
 
     </properties>
 
-    <modules>
-        <module>space-service</module>
-        <module>space-component</module>
-    </modules>
 
     <dependencyManagement>
         <dependencies>
