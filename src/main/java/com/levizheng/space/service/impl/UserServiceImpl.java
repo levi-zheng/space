@@ -1,5 +1,6 @@
 package com.levizheng.space.service.impl;
 
+import com.levizheng.space.model.dto.RegisterDTO;
 import com.levizheng.space.service.IUserService;
 import org.springframework.stereotype.Service;
 
@@ -9,4 +10,9 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class UserServiceImpl implements IUserService {
+
+    @Override
+    public void register(RegisterDTO registerDTO) {
+
+    }
 }
