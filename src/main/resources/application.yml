@@ -1,3 +1,16 @@
 server:
   port: 10010
+spring:
+  application:
+    name: space
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc://mysql://127.0.0.1:3306/space
+    username: root
+    password: root
 
+minio:
+  endpoint: http://localhost:9000
+  accessKey: QM9Z9uR2mWcmY3Uq2KZJ
+  secretKey: OhILZpC8fvFa3tGpTasyjyhena6Pa0i2I0bcjmYB
+  bucketName: space
